@@ -61,7 +61,7 @@ class Home extends StatelessWidget {
             children: <Widget>[
               Stack(children: <Widget>[
                 ClipRRect(
-                  borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)),
+                  borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(300)),
                   child: Container(
                     height: _height / 2.5,
                     width: MediaQuery.of(context).size.width,
@@ -151,31 +151,17 @@ class Home extends StatelessWidget {
                               ),
                               Container(
                                 width: _width / 1.8,
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                                  children: <Widget>[
-                                    Container(
-                                      margin: EdgeInsets.only(left: 0, top: 10, bottom: 5),
-                                      child: Text(
-                                        'Rating:',
-                                        style: TextStyle(
-                                          fontSize: 16
-                                        ),
-                                      ),
-                                    ),
-                                    Container(
-                                      margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
-                                      child: Row(
-                                        children: <Widget>[
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                        ],
-                                      ),
-                                    )
-                                  ],
+                                child: Container(
+                                  margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
+                                  child: Row(
+                                    children: <Widget>[
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
@@ -228,31 +214,17 @@ class Home extends StatelessWidget {
                               ),
                               Container(
                                 width: _width / 1.8,
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                                  children: <Widget>[
-                                    Container(
-                                      margin: EdgeInsets.only(left: 0, top: 10, bottom: 5),
-                                      child: Text(
-                                        'Rating:',
-                                        style: TextStyle(
-                                            fontSize: 16
-                                        ),
-                                      ),
-                                    ),
-                                    Container(
-                                      margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
-                                      child: Row(
-                                        children: <Widget>[
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                        ],
-                                      ),
-                                    )
-                                  ],
+                                child: Container(
+                                  margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
+                                  child: Row(
+                                    children: <Widget>[
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
@@ -305,31 +277,17 @@ class Home extends StatelessWidget {
                               ),
                               Container(
                                 width: _width / 1.8,
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                                  children: <Widget>[
-                                    Container(
-                                      margin: EdgeInsets.only(left: 0, top: 10, bottom: 5),
-                                      child: Text(
-                                        'Rating:',
-                                        style: TextStyle(
-                                            fontSize: 16
-                                        ),
-                                      ),
-                                    ),
-                                    Container(
-                                      margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
-                                      child: Row(
-                                        children: <Widget>[
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                          Icon(Icons.star, color: Colors.orange,),
-                                        ],
-                                      ),
-                                    )
-                                  ],
+                                child: Container(
+                                  margin: EdgeInsets.only(top: 10, right: 0, bottom: 5),
+                                  child: Row(
+                                    children: <Widget>[
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                      Icon(Icons.star, color: Colors.orange,),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
